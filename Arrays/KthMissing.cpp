@@ -29,13 +29,10 @@ int main(){
             ans =mid;
             end=mid-1;
         }
-        else{
+        else
+        {
             start=mid+1;
         }
     }
     cout<<"The "<<K<<"th missing element is : "<<ans+K;
-
-
-
-
 }    
