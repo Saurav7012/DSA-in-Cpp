@@ -1,13 +1,10 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
 
     int i, N, K;
-
     int arr[1000];
-
     cout<<"Enter Number of Elements : ";
     cin>>N;
 
@@ -36,7 +33,6 @@ int main(){
             start=mid+1;
         }
     }
-
     cout<<"The "<<K<<"th missing element is : "<<ans+K;
 
 
