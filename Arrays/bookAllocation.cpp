@@ -1,11 +1,9 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
 
     int i, N, M;
-
     int arr[1000];
 
     cout<<"Enter Number of Books : ";
@@ -56,7 +54,5 @@ int main(){
             start=mid+1;
         }
     }
-
     cout<<ans<<" pages";
-
 }    
