@@ -1,7 +1,6 @@
 //Assume that there are occurrences greater than N/2
 
 #include <iostream>
-
 using namespace std;
 
 int main(){
@@ -37,6 +36,5 @@ int main(){
             }
         }
     }
-
     cout<<candidate<<" has occured the most times";
 }
