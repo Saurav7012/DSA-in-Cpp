@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std; 
 
 int main(){
@@ -25,8 +24,6 @@ int main(){
         {
             prefix=0;
         }
-
     }
-
     cout<<"Maximum Subarray Sum : "<<Maxi;
 }
