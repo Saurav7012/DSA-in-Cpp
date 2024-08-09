@@ -6,7 +6,7 @@ int main(){
 
     int N, i, sum1=0, sum2=0;
 
-    cout<<"Enter N: ";   //3
+    cout<<"Enter N: ";   
 
     cin>>N;      
 
