@@ -1,15 +1,11 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
 
     int size, i, ans, flag;
-
     cout<<"Enter size of Array : ";
-
     cin>>size;
-
     int arr[1000];
 
     for(i=0; i<size ;i++)
@@ -38,7 +34,5 @@ int main(){
             ans=max(ans,arr[i]);
         }
     }
-
     cout<<"SECOND MAX : "<<ans;
-
 }
