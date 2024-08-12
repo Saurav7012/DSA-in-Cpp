@@ -44,6 +44,10 @@ class Stack
         {
             cout<<arr[top]<<" is popped"<<endl;
             top--;
+            if(top == -1)
+            {
+                flag = 1;
+            }
         }
     }
 
