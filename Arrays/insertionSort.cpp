@@ -1,15 +1,11 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
 
     int size, i, j;
-
     cout<<"Enter array size : "; 
-
     cin>>size;      
-
     int arr[1000];
 
     for(i=0; i<size; i++)
@@ -37,7 +33,4 @@ int main(){
     {
         cout<<arr[i]<<" ";
     }
-
-    
-
 }    
