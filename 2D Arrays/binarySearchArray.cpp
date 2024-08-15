@@ -1,14 +1,11 @@
 #include <iostream>
-
 using namespace std;
 
 int main(){
     
     int matrix[100][100], N, M, K, i,j;
-
     cout<<"Enter number of rows and cols: ";
     cin>>N>>M;
-
     cout<<"Enter the elements : ";
 
     for(i=0; i<N; i++)
@@ -27,7 +24,6 @@ int main(){
     while(start<=end)
     {
         mid= start + (end-start)/2;
-
         row=mid/M;
         col=mid%M;
 
