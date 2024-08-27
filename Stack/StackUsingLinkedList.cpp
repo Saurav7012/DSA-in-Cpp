@@ -95,4 +95,5 @@ int main()
     S.isSize();
     S.peek();
     S.isEmpty();
+
 }
